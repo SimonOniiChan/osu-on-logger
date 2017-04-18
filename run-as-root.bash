@@ -6,3 +6,4 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 echo "*/10 *	* * *	root	sh $(dirname $(readlink -f "$0"))/refresh.bash" >> /etc/crontab
+chmod +x $(dirname $(readlink -f "$0"))/*.*
