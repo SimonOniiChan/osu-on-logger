@@ -3,3 +3,4 @@ echo -n "Please specify the users you want to track with their id. The name will
 read users
 echo $users >> $(dirname $(readlink -f "$0"))/ids.config
 mkdir -p log 
+refresh.bash
