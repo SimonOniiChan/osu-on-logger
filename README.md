@@ -10,3 +10,6 @@ Run the `run-as-root.bash` to create a cronjob in /etc/crontab. Please note that
 
 ## USAGE
 the script should now run every 15 minutes and update the timestamps in the log folder. Make sure to have your date set correctly beforehand
+
+## SIDE NOTES
+You can safely delete the `run-as-root.bash` as well as the `setup.sh`. However, setup.sh can later be used to add users to the track list without editing the config file, so you might want to keep it.
